@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Project Description
+
+This project is a simple React application that allows users to view, add, edit, and delete users. The user data is fetched from the [Reqres API](https://reqres.in/). The application has the following components:
+
+- `Header`: Displays the title of the application.
+- `Users`: Displays a list of users.
+- `User`: Displays a single user's information with options to edit or delete the user.
+- `AddUser`: A form to add or edit a user, including a new feature to upload a user avatar (photo).
+
+### New Features
+
+- **Avatar Upload**: The `AddUser` component now includes an option to upload an avatar (photo) for the user. The uploaded photo is displayed along with the user's details.
+
+## How to Use
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/B1teCode/REACT_listofUsersApp.git
